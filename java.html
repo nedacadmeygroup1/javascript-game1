@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button with Java</title>
+    <link rel="stylesheet" href="java.css">
+</head>
+<body>
+    <button
+    onclick="console.log(`Quantity: ${quantity}`)">
+    Show Quantity</button>
+    
+    <button
+    onclick= "quantity+=1;console.log(`Quantity: ${quantity}`)">
+    Add To Cart</button>
+
+    <button onclick= "quantity+=2; console.log(`Quantity: ${quantity}`)"> 
+        Add 2</button>
+
+    <button
+    onclick= "quantity=0; console.log(`Quantity: ${quantity}`)">
+    Reset Cart</button>
+        
+<script>
+    let quantity=0;
+
+</script>
+
+</body>
+
+</html>
